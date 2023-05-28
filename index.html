@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Layout Project</title>
+    <link rel="stylesheet" href="./assets/images/browser.png">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header id="header" class="container-fluid">
+        <section class="container">
+            <nav class="navbar navbar-expand-lg pt-3">
+                <div class="container-fluid ">
+                  <a class="navbar-brand" href="#">Meyawo</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonial</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Components</a>
+                      </li>
+                      
+                    </ul>
+                    <div class="ps-3">
+                        <span>
+                            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                        </span>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </section>
+        <section class="container">
+            <div class="row d-flex justify-content-end pt-5">
+                <div class="col-9 pt-5">
+                    <h1 class="py-2 display-1">HI!</h1>
+                    <h2 class="display-1 ">I am John Doe</h2>
+                    <h4 class="display-6">FRONTEND WEB DESIGNER</h4>
+                    <button type="button" class="btn rounded-pill btn-primary mt-4 py-2 px-4">
+                        <a href="#">Vist My Work</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </header>
+<!-- main -->
+<main>
+  <!-- about -->
+  <section id="about" class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="pt-4">
+          <img src="./assets/images/about-pic.png" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-6 py-5">
+        <div class="pt-3">
+          <p class="lead mb-0"> Who Am I?</p>
+          <h3 class="display-5">About Me</h3>
+          <p class="lead text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque corrupti ab labore, fugiat maxime  incidunt natus consequatur vero error culpa. Dolores, dolor voluptates.<br>
+          delectus? Eum corporis animi voluptatibus dignissimos autem cum, accusamus obcaecati tenetur quisquam totam at aliquam ipsa, voluptate eveniet ratione ipsum?</p>
+          <button type="button" class="btn rounded-pill  mt-4 py-2 px-4">
+            <a href="#">Download CV</a>
+        </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- services -->
+  <section id="services" class="container py-5">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="lead mb-0">What I Do?</p>
+          <h3 class="display-5">Service</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 pt-5">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center py-5">
+                <a href="..."><img src="./assets/images/responsive-design.png" class="img-fluid" alt=""></a>
+                <h6 class="py-3">Adipicising</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 pt-5">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center py-5">
+                <a href="..."><img src="./assets/images/tool-box.png" class="img-fluid" alt=""></a>
+                <h6 class="py-3">Sapiente</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 pt-5">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center py-5">
+                <a href="..."><img src="./assets/images/analytics.png" class="img-fluid" alt=""></a>
+                <h6 class="py-3">Placeat</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 pt-5">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center py-5">
+                <a href="..."><img src="./assets/images/mug.png" class="img-fluid" alt=""></a>
+                <h6 class="py-3">Iusto</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- portfolio -->
+  <section id="portfolio" class="container py-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="lead mb-0">What I Did?</p>
+        <h3 class="display-5 pb-5">Portfolio</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <img src="./assets/images/portfolio1.png" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <img src="./assets/images/portfolio2.png" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <img src="./assets/images/portfolio3.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- price -->
+  <section id="price" class="container py-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="lead mb-0">How Much I Charge ?</p>
+        <h3 class="display-5 pb-5">My Pricing</h3>
+      </div>
+    </div>
+    <div class="card-group text-center ">
+      <div class="card py-3">
+        <div class="card-body py-4">
+          <div>
+            <img src="./assets/images/fast-delivery.png" class="img-fluid" alt="">
+          </div>
+          <h3 class="py-3">Free</h3>
+          <ul class="ps-0">
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit amet, consectetur.</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit amet, consectetur</li>
+          </ul>
+          <p class="card-text fw-bolder fs-2 py-2"><sup>$</sup>0.00/Month</p>
+          <button type="button" class="btn btn-primary ">
+            <a href="#">Subcribe</a>
+          </button>
+        </div>
+      </div> 
+      <div class="card py-3">
+        <div class="card-body py-4">
+          <div>
+            <img src="./assets/images/pickup-car.png" class="img-fluid " alt="">
+          </div>
+          <h3 class="py-3">Basic</h3>
+          <ul class="ps-0">
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit amet, consectetur.</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit amet, consectetur</li>
+          </ul>
+          <p class="card-text fw-bolder fs-2 py-2"><sup>$</sup>9.99/Month</p>
+          <button type="button" class="btn btn-primary ">
+            <a href="#">Subcribe</a>
+          </button>
+        </div>
+      </div> 
+      <div class="card py-3">
+        <div class="card-body py-4">
+          <div>
+            <img src="./assets/images/rocket.png" class="img-fluid " alt="">
+          </div>
+          <h3 class="py-3">Premium</h3>
+          <ul class="ps-0">
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit amet, consectetur.</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit</li>
+              <li class="my-3 list-unstyled ms-0">Lorem ipsum dolor sit amet, consectetur</li>
+          </ul>
+          <p class="card-text fw-bolder fs-2 py-2"><sup>$</sup>99.9/Month</p>
+          <button type="button" class="btn btn-primary ">
+            <a href="#">Subcribe</a>
+          </button>
+        </div>
+      </div> 
+  </section>
+  <!-- hire me -->
+  <section id="hire" class="container-fluid">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-6 text-light d-flex align-items-center justify-content-center flex-column">
+          <h4 class="fw-bolder">Want to work with me ?</h4>
+          <p class="pt-2">Always feel Free to Contact & Hire me</p>
+        </div>
+        <div class="col-6 d-flex align-items-center justify-content-center">
+          <button type="button" class="btn btn-primary btn-lg fw-bolder fs-3 py-2 px-4">
+            Hire Me
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonials -->
+  <section id="testimonials" class="container">
+    <div class="row py-5">
+      <div class="col-12 text-center">
+        <p class="lead mb-0">What Think Client About Me ?</p>
+        <h3 class="display-5 pb-5">Testmonial</h3>
+      </div>
+    </div> 
+    <div class="row d-flex justify-content-around pb-5">
+      <div class="col-lg-5 col-md-12 col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row pt-3">
+              <div class="col-3 d-flex align-items-center">
+                <img src="./assets/images/testmonial1.png" class="img-fluid rounded-circle" alt="">
+              </div>
+              <div class="col-9">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam impedit sit similique eius facilis recusandae veritatis optio omnis tempore.</p>
+                <h3>John Reb</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12 col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row pt-3">
+              <div class="col-3 d-flex align-items-center">
+                <img src="./assets/images/testmonial2.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-9">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam impedit sit similique eius facilis recusandae veritatis optio omnis tempore.</p>
+                <h3>Emily Reb</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog -->
+  <section id="blog" class="container py-4">
+    <div class="row py-5">
+      <div class="col-12 text-center">
+        <p class="lead mb-0">Recent Posts ?</p>
+        <h3 class="display-5 pb-5">Blog</h3>
+      </div>
+    </div> 
+    <div class="row">
+      <div class="card ps-0" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/images/blog-parent.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h6 class="card-title">Consectetur adipisicing elit</h6>
+              <div>
+                <p>By:Admin <span class="ps-3"><i class="fa-solid fa-eye"></i></span> 234 <span class="ps-3"><i class="fa-solid fa-share"></i></span> 123</p>
+              </div>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <div>
+                <a href="#">Read More<i class="fa-solid fa-angles-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div> 
+
+    <div class="row pt-4">
+      <div class="card ps-0" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/images/blog-men.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h6 class="card-title">Explicabo illo</h6>
+              <div>
+                <p>By:Admin <span class="ps-3"><i class="fa-solid fa-eye"></i></span> 234 <span class="ps-3"><i class="fa-solid fa-share"></i></span> 123</p>
+              </div>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <div>
+                <a href="#">Read More<i class="fa-solid fa-angles-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+  </section>
+    
+
+</main>
+
+
+
+
+
+
+
+
+<script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
